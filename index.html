@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="media/flickr_logo_.svg">
+    <title>flikr clone </title>
+</head>
+<body>
+    
+    <nav class="navbar bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+  <img src="media/flickr_logo_.svg" alt="Logo" width="80" height="40" class="d-inline-block align-text-top">
+</a>
+    
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-success" type="submit">login</button>
+      <button class="btn btn-outline-success" type="submit">Signup</button>
+    </form>
+  </div>
+</nav>
+<!--car-->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+ <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="media/Catwalk_am_Bahnhof_Zurich_Oerlikon_Peter_Arn.jpg" class="d-block w-0" alt="...">
+    </div>
+
+    <div class="carousel-item">
+        
+      <img src="media/A_Time_of_Change_Rachel_Brokaw.jpg" class="d-block w-30" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="media/benito_druck.jpg" class="d-block w30" alt="...">
+    </div>
+      <div class="carousel-item">
+        
+      <img src="media/www.pexels.com.url" class="d-block w-30" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</div> 
+<div class="text"> 
+  <h1> find your inspirationn</h1>Join the Flickr community, home to tens of billions of
+photos and 2 million groups.
+<button class="btn btn-outline-sucess" type="submit">Start for free</button>
+
+</div>
+<footer> <!-- Footer -->
+<footer class="footer">
+  <div class="footer-links">
+    <a href="#">About</a>
+    <a href="#">Jobs</a>
+    <a href="#">Blog</a>
+    <a href="#">Advertise</a>
+    <a href="#">Developers</a>
+    <a href="#">Guidelines</a>
+    <a href="#">Help</a>
+    <a href="#">Help Forum</a>
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Cookies</a>
+    <a href="#">English</a>
+    <a href="#">SmugMug+Flickr</a>
+  </div>
+
+  <div class="footer-icons">
+    <a href="#"><i class="bi bi-facebook"></i></a>
+    <a href="#"><i class="bi bi-twitter"></i></a>
+    <a href="#"><i class="bi bi-instagram"></i></a>
+  </div>
+</footer>
+
+<!-- Bootstrap Icons CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<style >
+.carousel-item img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(70%); /* optional: darken background for better contrast */
+}
+
+/* Center text over the carousel */
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 10;
+  width: 80%;
+}
+
+/* Style text and button */
+.text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.text button {
+  background-color: #0063dc;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.text button:hover {
+  background-color: #0052b4;
+}
+</style>
